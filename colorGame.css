@@ -1,0 +1,95 @@
+body{
+    background-color: #232323;
+
+    font-family: "Montserrat", "Avenir";
+    margin: 0;
+    border-top: 0;
+}
+.square{
+    width:30%;
+    background: purple;
+    padding-bottom: 30%;
+    float:left;
+    margin: 1.66%;
+      border-radius: 15%;
+      transition: background 0.5s;
+     --webkit-transition:background 0.3s;
+	--moz-transition:background 0.3s;
+}
+#container {
+    margin: 20px auto;
+    max-width: 600px;
+ 
+
+}
+#colorDisplay
+{
+	font-size: 200%
+}
+
+.menutab{
+   
+    background: white;
+    text-align: center;
+    height:30px;
+
+}
+#message{
+	display:inline-block;
+	width:20%;
+	color:steelblue;
+	font-weight: 700;
+	font-size: inherit;
+	text-transform: uppercase;
+
+}
+h1{
+	color:white;
+	text-align: center;
+	text-transform: uppercase;
+	background:steelblue;
+	margin: 0;
+	line-height: 1.1;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+button:hover{
+	background: steelblue;
+	color:white;
+}
+
+.selected
+{
+	color:white;
+	background:steelblue;
+}
+button{
+	border: none;
+	background: none;
+	
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color:steelblue;
+	font-size: inherit;
+	transition: all 0.3s;
+	letter-spacing: 1px;
+	--webkit-transition:all 0.3s;
+	--moz-transition:all 0.3s;
+	outline: none;
+}
+.align
+{
+	display:inline-block;
+	margin-left: 20%;
+	text-align: right; 
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color:steelblue;
+	font-size: inherit;
+	letter-spacing: 1px;
+	
+
+}
+
